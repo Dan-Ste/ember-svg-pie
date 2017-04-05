@@ -41,15 +41,15 @@ See [demo](https://lolmaus.github.io/ember-svg-pie/) for code samples and result
 
 
 
-## Bonus array helper
+## Bonus svg-pie-array helper
 
-This addon provides the `array` helper which acts similar to the [hash](https://github.com/emberjs/ember.js/blob/master/packages/ember-htmlbars/lib/helpers/hash.js) helper [introduced](http://emberjs.com/blog/2015/11/16/ember-2-2-released.html#toc_hash-helper) in Ember 2.3.
+This addon provides the `svg-pie-array` helper which acts similar to the [hash](https://github.com/emberjs/ember.js/blob/master/packages/ember-htmlbars/lib/helpers/hash.js) helper [introduced](http://emberjs.com/blog/2015/11/16/ember-2-2-released.html#toc_hash-helper) in Ember 2.3.
 
 Use it to quickly build an array in your template:
 
 ```hbs
 <ul>
-  {{#each (array 'foo' 'bar' 'baz') as |item|}}
+  {{#each (svg-pie-array 'foo' 'bar' 'baz') as |item|}}
     <li>{{item}}</li>
   {{/each}}
 </ul>
